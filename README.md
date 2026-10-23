@@ -10,12 +10,12 @@ It only reads public data from two official sources:
 ## Install
 
 ```bash
-pip install hn-keyword-watch        # once published
+pip install hn-keyword-watch
 # or from a checkout:
 pip install .
 ```
 
-Python 3.9+ and no third-party dependencies.
+Python 3.9+ and no third-party dependencies. Package page: [pypi.org/project/hn-keyword-watch](https://pypi.org/project/hn-keyword-watch/).
 
 ## Usage
 
@@ -73,6 +73,10 @@ for m in find_matches(items, ["looking for a tool"]):
 - This tool only reads. Don't use it to spam people who post on HN. Reply by hand, and only when you can actually help.
 
 If you'd rather not run this yourself, [Prospy](https://prospy.io) does social listening and AI lead generation across X/Twitter, Reddit, Bluesky and Hacker News, surfacing buying-intent posts.
+
+## Source and issues
+
+The canonical repo is on Codeberg: [codeberg.org/prospy/hn-keyword-watch](https://codeberg.org/prospy/hn-keyword-watch). It's mirrored to GitHub at [github.com/prospy-io/hn-keyword-watch](https://github.com/prospy-io/hn-keyword-watch). Issues and pull requests are welcome on either.
 
 ## Development
 
